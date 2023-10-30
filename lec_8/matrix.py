@@ -44,7 +44,7 @@ class Matrix:
             print("Invalid submatrix dimensions")
 
 
-matrix = Matrix(4, 5)
+matrix = Matrix(4, 4)
 matrix.print_matrix()
 
 print("Mean of the matrix:", matrix.calculate_mean())
