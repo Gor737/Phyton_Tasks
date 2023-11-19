@@ -1,6 +1,6 @@
 import requests
-
 base_url = "https://jsonplaceholder.typicode.com"
+
 
 def getPosts():
     response = requests.get(f"{base_url}/posts")
