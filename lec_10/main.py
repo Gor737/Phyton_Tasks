@@ -1,28 +1,28 @@
-from vehicle import Vehicle
+from vehicle import MyVehicle
 
-class Car(Vehicle):
+class MyCar(MyVehicle):
     def __init__(self):
         super().__init__()
         print('Car ')
 
-class Plane(Vehicle):
+class MyPlane(MyVehicle):
     def __init__(self):
         super().__init__()
         print('Plane ')
 
-class Boat(Vehicle):
+class MyBoat(MyVehicle):
     def __init__(self):
         super().__init__()
         print('Boat ')
 
-class RaceCar(Car):
+class MyRaceCar(MyCar):
     def __init__(self):
         super().__init__()
         print('RaceCar ')
 
 
-vehicle = Vehicle()
-car = Car()
-plane = Plane()
-boat = Boat()
-race_car = RaceCar()
+vehicle = MyVehicle()
+car = MyCar()
+plane = MyPlane()
+boat = MyBoat()
+race_car = MyRaceCar()
