@@ -13,14 +13,16 @@ def multiply_vector_matrix(vector, matrix):
 
     return result
 
-vector = [2, 3, 4]
+
+
+vector = [3, 4, 7]
 matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
+    [1, 7, 3],
+    [2, 2, 2],
+    [7, 3, 7]
 ]
 
-result = multiply_vector_matrix(vector, matrix)
+resultly = multiply_vector_matrix(vector, matrix)
 
 print("Vector:")
 print(vector)
@@ -28,7 +30,7 @@ print("\nMatrix:")
 for row in matrix:
     print(row)
 print("\nResult of vector-matrix multiplication:")
-print(result)
+print(resultly)
 
 matrix_string = ""
 for row in matrix:
